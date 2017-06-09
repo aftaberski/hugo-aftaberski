@@ -33,14 +33,14 @@ faviconfile   = "images/fav.ico"
 highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "© 2017 Anna Taberski" # Text to show in footer (overrides default text)
-fadein        = true # Turn on/off the fade-in effect
+fadein        = false # Turn on/off the fade-in effect
 
 showblog        = true # Show Blog section on home page
 showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
 showlatest      = true # Show latest blog post summary
 sharebuttons    = true # On post pages, show share this social buttons
 
-showprojects    = true # Show Projects section on home page
+showprojects    = false # Show Projects section on home page
 
 # This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
 project1link    = "#"
@@ -60,12 +60,12 @@ project3title   = "Project 3"
 # Find icon names here: http://fontawesome.io/cheatsheet/
 
 [[params.social]]
-url = "https://twitter.com/annataberski"
-icon = "twitter"
+url = "https://github.com/aftaberski"
+icon = "github"
 
 [[params.social]]
-url = "https://facebook.com/"
-icon = "facebook"
+url = "https://twitter.com/annataberski"
+icon = "twitter"
 
 [[params.social]]
 url = "https://linkedin.com/annataberski"

@@ -60,8 +60,6 @@
     <h2 class="title is-2 has-text-centered">About</h2>
 
         <div class="columns"><!-- Avatar and about.md side by side except mobile -->
-            <div class="column is-one-third has-text-centered"><img class="img-responsive avatar" src="/{{ .Site.Params.avatar }}" alt="My profile picture.">
-            </div>
             <div class="column markdown">
                 {{ range .Data.Pages }}
                     {{if eq .Title "about" }}
